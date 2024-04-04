@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+.bg-black{
+    background-color: black
+}
+@tailwind utilities;
+@tailwind variants;
+
+@media (max-width:580px){
+    #popup{
+   right:auto;
+    }
+}
+.zoom-in-out-box{
+    animation: zoom-in-zoom-out 1s ease ;
+  }
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(0.5, 0.5);
+    }
+    70% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
