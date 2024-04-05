@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addGlobalData('env', process.env);
     eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
     eleventyConfig.addPassthroughCopy('src/css/style.css');
+    eleventyConfig.addPassthroughCopy('src/assets/*')
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
     return {
