@@ -28,16 +28,14 @@ class About{
     
                 <div>
                     <h3 class="text-lg font-semibold text-gray-900">Hey! I am Giriraj Soni, Full Stack Developer</h3>
-                    <p class="mt-4 text-lg text-gray-700">Experienced Software Engineer (2+ yrs) specializing in Full Stack, Microservices, and Web Development. Proficient in JavaScript,
+                    <p class="mt-4 text-lg text-gray-700">Experienced Software Engineer specializing in Full Stack, Microservices, and Web Development. Proficient in JavaScript,
                     Typescript, ReactJS, and MEAN Stack.</p>
                     <p class="mt-4 text-lg text-gray-700">Strong problem solver, collaborative team player, and dedicated to staying updated with industry
                     trends. Designing and developing interactive, user-friendly interfaces.</p>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="py-10 bg-white sm:py-16">
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="mt-10 px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 text-center sm:grid-cols-2 gap-y-8 lg:grid-cols-4 sm:gap-12">
             <div>
                 <div class="flex items-center justify-center w-20 h-20 mx-auto bg-blue-100 rounded-full">
@@ -105,7 +103,7 @@ class About{
             </div>
         </div>
     </div>
-</section>
+    </section>
     `
             return content;
     }
