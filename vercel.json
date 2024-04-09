@@ -1,0 +1,7 @@
+{
+    "installCommand": "npm install",
+    "buildCommand":"eleventy & npm run build:css",
+    "build:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --postcss",
+    "outputDirectory": "_site",
+    "public": true
+}
