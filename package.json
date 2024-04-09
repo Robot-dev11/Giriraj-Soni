@@ -9,7 +9,7 @@
     "start": "npm-run-all -p dev:*",
     "dev:11ty": "eleventy --serve",
     "dev:css": "tailwindcss -i  src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --watch --postcss",
-    "build:11ty": "eleventy",
+    "build:11ty": "eleventy & npm run build:css",
     "build:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --postcss"
   },
   "repository": {
