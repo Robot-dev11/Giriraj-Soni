@@ -1,7 +1,7 @@
 exports.data = () => {
     return {
         layout: "base.njk",
-        permalink: "/techstack",
+        permalink: "/techstack/",
     }
 }
 exports.render = (data) =>{
