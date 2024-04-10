@@ -1,7 +1,7 @@
 exports.data = () => {
     return {
         layout: "base.njk",
-        permalink: "/experience",
+        permalink: "/experience/",
     }
 }
 exports.render = (data) =>{
